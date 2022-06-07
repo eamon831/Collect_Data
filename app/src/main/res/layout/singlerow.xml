@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/purple_200"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/rname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/curve"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:text="Test"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="italic|bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/reducation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:text="Test"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="italic|bold"
+        android:background="@drawable/curve"
+        android:layout_below="@+id/rname">
+    </TextView>
+
+    <TextView
+        android:id="@+id/rage"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/reducation"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/curve"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:text="Test"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="italic|bold"></TextView>
+
+    <TextView
+        android:id="@+id/rnumber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rage"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/curve"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:text="Test"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="italic|bold"></TextView>
+
+
+
+</RelativeLayout>
